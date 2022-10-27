@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.navbar{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:rgb(195, 0, 7);
+	position:sticky;
+	top:0;
+}
+.navbar ul{
+	display:flex;
+	list-style:none;
+	margin:20px 0px;
+}
+.navbar ul li{
+	font-family:Courier New;
+	font-size:25px;
+	font-weight:bold;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color:white;
+	padding:8px 25px;
+	transition:all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color:white;
+	color:red;
+	box-shadow: 0 0 10px white;
+}
+
+#home{
+	display:flex;
+	flex-direction:column;
+	background-color:rgba(0, 0, 0, 0.5);
+	height:840px;
+	justify-content:center;
+	align-items:center;
+	color:black;
+}
+#home{
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	background: url('haven.png'); 
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	z-index:-1;
+	opacity: .8;
+}
+.main{
+	display:flex; 
+	flex-direction:column;
+	align-items:center;
+	position:absolute;
+	top:50%;
+	right:10%;
+} 
+.heading{
+	font-family:courier new;
+	font-size:48px;
+	text-align:center;
+	margin:40px 0px;
+}
+
+
+
+
+
+#haven{
+	display:flex;
+	flex-direction:column;
+	box-sizing:border-box;
+	padding:20px;
+	margin-bottom:50px;
+}
+       
+		
+#pic{
+	display:flex;
+	
+}
+
+#intro{
+	display:flex;
+	flex-direction:column;
+	text align:justify;
+	padding:10px;
+	font-weight:bold;
+	
+
+}
+#intro h2{
+		font-size:32px;
+		margin-bottom:20px;
+		font-family:courier new;
+		
+}
+#intro p{
+	background-color:white;
+	background-size:length 20px;
+	width:100%;
+	margin:20px 0px;
+	padding:25px;
+	color:rgb(195, 0, 7);
+	box-shadow: 5px 5px 10px black;
+}
+
