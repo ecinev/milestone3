@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:rgb(195, 0, 7);
+	position:sticky;
+	top:0;
+}
+.navbar ul{
+	display:flex;
+	list-style:none;
+	margin:20px 0px;
+}
+.navbar ul li{
+	font-family:Courier New;
+	font-size:25px;
+	font-weight:bold;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color:white;
+	padding:8px 25px;
+	transition:all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color:white;
+	color:red;
+	box-shadow: 0 0 10px white;
+}
+.about{
+    width:100%;
+    padding: 78px 0px;
+    background-color:rgb(255, 255, 255);
+
+}
+.about img{
+    height: auto;
+    width:420px;    
+    
+   
+}
+.about1{
+    width:550px;
+}
+.main{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about1 h1{
+    color:rgb(131, 7, 7);
+    font-size:80px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.about1 h5{
+    color:red;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom:25px;
+    letter-spacing:2px;
+}
+.about1 p{
+    color:brown;
+    letter-spacing:1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
